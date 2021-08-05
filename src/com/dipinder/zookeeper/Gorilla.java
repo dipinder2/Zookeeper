@@ -2,6 +2,7 @@ package com.dipinder.zookeeper;
 
 public class Gorilla extends Mammal {
 	
+	
 	public void throwSomething(){
 		this.setEnergyLevel(this.getEnergyLevel()-5);
 		System.out.println("Gorilla threw something and "

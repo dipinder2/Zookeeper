@@ -10,8 +10,17 @@ public class GorillaTest {
 		gorilla.eatBananas();
 		gorilla.eatBananas();
 		gorilla.climb();
-		System.out.print(gorilla.getEnergyLevel());
+		System.out.println(gorilla.getEnergyLevel());
 		
+		Bat bato = new Bat();
+		bato.attackTown();
+		bato.attackTown();
+		bato.attackTown();
+		bato.eatHumans();
+		bato.eatHumans();
+		bato.fly();
+		bato.fly();
+		bato.displayEnergy();
 
 	}
 
